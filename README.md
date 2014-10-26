@@ -1,9 +1,9 @@
 #OVERVIEW
 The R script, run_analysis.R, reads data files and outputs a selection of the data as a data table.
 
-The initial data has 561 measurements for 30 subjects and 6 activities with many rows for each subject and activity.
+The initial data has 561 measurements for 30 subjects and 6 activities with many rows for each subject and activity pair.
 
-The final data table has 66 measurements for 30 subjects doing 6 activities with 1 averaged row for each subject and activity.
+The final data table has 66 measurements for 30 subjects doing 6 activities with 1 averaged row for each subject and activity pair.
 
 
 #SET UP
@@ -18,14 +18,14 @@ The 'train' files found in the 'train' folder contain 7352 observations.
 Each folder has three types of file for subjects, activities, and signals
 
 ##Subject files
-subject_test.txt
-subject_train.txt
+*subject_test.txt
+*subject_train.txt
 ##Activity files
-y_test.txt
-y_train.txt
+*y_test.txt
+*y_train.txt
 ##Signal files
-X_test.txt
-X_train.txt
+*X_test.txt
+*X_train.txt
 
 ##Key files
 The feature.txt file contains the name of each signal column
